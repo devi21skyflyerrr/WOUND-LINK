@@ -18,5 +18,3 @@ See `TEST_CASES.md`. Run `runTests()` in the browser console, or follow the tabl
 ## Limitations
 Prototype. Review intervals and triggers are defaults that need clinical review. The risk list is a checklist, not a validated scale. Not for use as a diagnostic device.
 
-## AI usage disclosure
-AI assistance (Claude, Anthropic) was used to draft the code and documentation. Idea selection, clinical content review, testing and final checks were done by the author.
