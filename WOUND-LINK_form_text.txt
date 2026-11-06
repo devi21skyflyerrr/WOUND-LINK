@@ -1,0 +1,53 @@
+WOUND-LINK - text to paste into the SFIC portal form
+Theme: Swasth & Samavesh Bharat (Health & Well-being)
+Track: choose what the portal allows (A + B combined if available; otherwise Track A)
+Level: Open
+Problem Statement dropdown: choose the closest option under Theme 3 (e.g., about health follow-up, assistive care or early referral). The wording must match the portal list.
+
+=== IDEA TITLE (59 characters) ===
+WOUND-LINK: Community Wound Care and Early Referral Network
+
+=== PROBLEM DESCRIPTION (190 / 500 words) ===
+People with diabetes, elderly people and bedridden patients are prone to chronic wounds and pressure injuries, which need regular assessment. When wounds are not checked on time, infection and delayed healing can follow. Many patients delay seeking care because of distance, cost or lack of awareness, and follow-up usually depends on the patient travelling back to a hospital.
+
+Four gaps combine to cause this:
+- Follow-up gap: wound care is centred on the hospital, so community-level follow-up is weak.
+- Record gap: community and home-care nurses often lack a simple, consistent way to record risk, wound status and review dates.
+- Awareness gap: family caregivers are rarely taught basic wound-care precautions or the warning signs of infection.
+- Referral gap: even when a nurse is concerned, the next step and its timing are not always clear.
+
+As a result, treatable wounds can worsen before help is sought, causing pain, longer illness, avoidable hospital visits and a burden on families. Nurses and community health workers already visit many of these patients, but without a simple tool and a clear referral route, wound follow-up rarely becomes a routine part of that visit.
+
+=== IDEA / SOLUTION DESCRIPTION (408 / 1000 words) ===
+WOUND-LINK connects hospital-based wound care with community-level follow-up. It has two parts that work together.
+
+Track A, the tool: an offline web app for nurses and supervised health workers. It registers a patient with a code (no names), records risk factors and wound details, flags danger signs, gives a clear referral level, sets the next review date and keeps a follow-up register on the device. A simple caregiver guide gives daily skin-check reminders and warning signs.
+
+Track B, the network: a supervised delivery model linking a participating healthcare facility, trained nurses and student volunteers, and trained family caregivers, so that follow-up happens in the community and the patient returns to hospital only when needed.
+
+How it works: (1) identify patients with chronic wounds or high risk of skin breakdown; (2) register them with a participating facility, with consent; (3) set an individualised follow-up schedule; (4) train caregivers in basic wound-care precautions and warning signs; (5) arrange nursing assessment at the scheduled intervals; (6) identify warning signs of infection; (7) refer when necessary.
+
+Result levels: URGENT (any danger sign such as fever, spreading redness, pus or foul smell, black tissue, or visible bone): same-day medical review. REFER (diabetic foot wound, pressure injury category 3, 4 or unstageable, or increasing pain, swelling or a wound getting bigger): medical review within 2 days. MONITOR (no danger or warning sign): nursing review in 3 days. Patients with no wound are placed in low, moderate or high risk by the number of risk factors, with prevention advice. These intervals are prototype defaults that will be confirmed by clinical review.
+
+What makes it different: it links hospital wound care with community follow-up; it is nurse-led, with a doctor confirming every referral; it works fully offline and sends no personal data anywhere; every patient has a clear referral level and next review date; and it includes the family caregiver as part of care.
+
+Technology: HTML, CSS and JavaScript as a single page, with no server, database or framework. It runs in any phone browser and is open-source (MIT licence). A working prototype is built, and the referral rules are covered by 10 test cases.
+
+Safeguards: it is a follow-up aid and does not diagnose or decide treatment; patient codes replace names; photos are optional, taken only with consent and kept on the device.
+
+Pathway: clinical and usability review, validated regional-language wording, a facility pilot with written permission, and then scale-up to more facilities and languages.
+
+=== EXPECTED IMPACT (214 / 500 words) ===
+Target audience: people with diabetes, elderly and bedridden patients with chronic wounds or at risk of pressure injury, and their family caregivers. Nurses and community health workers get a simple, consistent tool for wound follow-up.
+
+Social benefits: earlier detection of infection and deterioration, timely referral, better-informed caregivers and less avoidable suffering.
+
+Economic benefits: the tool is free, runs on phones workers already have and needs no new infrastructure. Earlier care can reduce avoidable hospital visits and costly late-stage treatment.
+
+Stakeholders: patients and families; nurses and community health workers; doctors and PHC medical officers; hospitals and home-care providers; the state health department; nursing and health colleges.
+
+Measurable impact (proposed KPIs): wounds and at-risk patients assessed; follow-up visits completed on schedule; referrals made and completed; danger signs detected early; caregivers trained; healing progress and cost per patient in the pilot.
+
+Levels of prevention (Park, 2021): primary - risk-factor identification and caregiver education before a wound develops; secondary - early detection of deterioration or infection with prompt referral; tertiary - follow-up and referral completion reduce complications.
+
+Scalability and sustainability: the model can extend to more PHCs, hospitals and home-care services, more languages, a validated risk scale used with permission, and facility dashboards. It runs within existing nursing and community health networks, so no new workforce is needed.
